@@ -14,11 +14,11 @@ This document will help set up local environment to run this project locally.
 
 ### Install NodeJS
 From your terminal/command line, run the following command to check if NodeJS is installed in your system:
-node -v
+#### `node -v`
 You should see a version number, and the version number should be at least 8.9.0.
 
 If you have NodeJS installed, check if npm is installed by running the following command:
-npm -v
+#### `npm -v`
 
 You should see a version number, and the version number should be at least 5.5.1.
 
@@ -29,7 +29,7 @@ If you dont see a version number, then grab the LTS installer from [NodeJS.org](
  Clone this repository using your git client!
 
 The repository URL is 'https://github.com/jalpaashara/ReactBlogApp.git'. If you've never done this before, you want to go into your terminal or git bash and type:
-git clone https://github.com/jalpaashara/ReactBlogApp.git
+#### `git clone https://github.com/jalpaashara/ReactBlogApp.git`
 
 This will clone the repository into your current working directory.
 
