@@ -6,9 +6,41 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This document will help set up local environment to run this project locally.
 
 ## Requirements
+1. Install NodeJS
+2. Clone this repository
+3. Install Dependencies
+4. Run ReactBlogApp
 
 
-### `npm start`
+### Install NodeJS
+From your terminal/command line, run the following command to check if NodeJS is installed in your system:
+node -v
+You should see a version number, and the version number should be at least 8.9.0.
+
+If you have NodeJS installed, check if npm is installed by running the following command:
+npm -v
+
+You should see a version number, and the version number should be at least 5.5.1.
+
+If you dont see a version number, then grab the LTS installer from [NodeJS.org](https://nodejs.org/en/) to install NodeJS. If it asks you to also install NPM, say yes!
+
+
+### Clone this repository
+ Clone this repository using your git client!
+
+The repository URL is 'https://github.com/jalpaashara/ReactBlogApp.git'. If you've never done this before, you want to go into your terminal or git bash and type:
+git clone https://github.com/jalpaashara/ReactBlogApp.git
+
+This will clone the repository into your current working directory.
+
+### Install Dependencies
+Once the repository is cloned, enter that directory in your terminal, and run
+
+#### `npm install`
+
+
+### Run ReactBlogApp
+#### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
