@@ -43,7 +43,12 @@ Once the repository is cloned, enter that directory in your terminal, and run
 
 
 ### Run ReactBlogApp
-Once the dependencies are installed, enter the below command to run the react application in development mode.
+Before we can run the application, you will need an API key for [Google News API](https://newsapi.org/) that is used in this application. Click on the Get API Key button to get your API key.
+
+Once you have the API key, create a file with the name ".env" in the root directory (not in src folder) and type in the following:
+REACT_APP_NEWS_API_KEY=Your_Google_News_Api_Key
+
+And finally to run the application type in the below command in your terminal:
 #### `npm start`
 
 Runs the app in the development mode.<br />
