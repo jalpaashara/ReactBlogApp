@@ -7,9 +7,9 @@ This document will help set up local environment to run this project locally.
 
 ## Requirements
 1. [Install NodeJS](#install-nodejs)
-2. Clone this repository
-3. Install Dependencies
-4. Run ReactBlogApp
+2. [Clone this repository](clone-this-repository)
+3. [Install Dependencies](#install-dependencies)
+4. [Run ReactBlogApp](#run-reactblogapp)
 
 
 ### Install NodeJS
