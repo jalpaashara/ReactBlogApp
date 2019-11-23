@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This document will help set up local environment to run this project locally.
 
 ## Requirements
-1. Install NodeJS
+1. [Install NodeJS](#install-nodejs)
 2. Clone this repository
 3. Install Dependencies
 4. Run ReactBlogApp
