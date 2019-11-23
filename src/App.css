@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.main_container{
+    display: grid;
+    grid-template-rows: 0.4fr 2fr 0.1fr;
+    overflow: hidden;
+    grid-gap: 2px;
+
+}
+
+.active{
+    color:red;
+}
+
+.maincontent {
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    border-color: #0e758a;
+    grid-template-rows: minmax(665px,auto);
+    grid-gap: 2px;
+    overflow: hidden;
+}
+
+/* Main & Food CSS */
+.divMain{
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.desc{
+    font-size: 24px;
+    text-align: justify;
+}
+
+/* Header CSS */
+.header-font{
+    font-family: Papyrus, serif;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.header-style{
+    background-image: url("https://www.dhaba15.co.uk/wp-content/uploads/2018/09/Dhaba-15-best-indian-food-norwich.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #f1f1f1;
+    width: 100%;
+    /* padding: 40px;
+    height: 125px; */
+}
+
+/* Footer CSS */
+footer{
+    background-color: #3d3d3d;
+    color: #f1f1f1;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* NavBar */
+.navStyle{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 720px){
+    .maincontent {
+        display: block;
+    }
+    .main_container {
+        display: block;
+    }
+
+    .divMain{
+        margin: 0;
+        padding: 0;
+
+    }
+    .header-font{
+        font-family: Papyrus, serif;
+        font-size: 33px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .desc{
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    img{
+        width: 75%;
+        height: 75%;
+    }
+
+    .navStyle{
+        font-size: 18px;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .header-style{
+        min-height: 100%;
+    }
+
+}
