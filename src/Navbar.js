@@ -51,7 +51,6 @@ class Navbar extends React.Component{
     }
 
     getNewsHeadlines() {
-        //set a loading state - good practice so you add a loading spinner or something
         this.setState({isLoaded: true}, () => {
             fetch('https://newsapi.org/v2/top-headlines?sources=google-news&apiKey='+API_KEY)
                 .then(res => res.json())
