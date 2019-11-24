@@ -58,3 +58,8 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 <hr>
+
+#### Link to the screencast video of the working app:
+[Link](https://screencast-o-matic.com/embed?sc=cqXZhKU4iT&v=5&ff=1%20allowfullscreen=true)
+
+<hr>
