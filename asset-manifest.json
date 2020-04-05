@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactBlogApp/static/css/main.e2414e90.chunk.css",
+    "main.js": "/ReactBlogApp/static/js/main.38dbbee7.chunk.js",
+    "main.js.map": "/ReactBlogApp/static/js/main.38dbbee7.chunk.js.map",
+    "runtime-main.js": "/ReactBlogApp/static/js/runtime-main.64398928.js",
+    "runtime-main.js.map": "/ReactBlogApp/static/js/runtime-main.64398928.js.map",
+    "static/js/2.65156925.chunk.js": "/ReactBlogApp/static/js/2.65156925.chunk.js",
+    "static/js/2.65156925.chunk.js.map": "/ReactBlogApp/static/js/2.65156925.chunk.js.map",
+    "index.html": "/ReactBlogApp/index.html",
+    "precache-manifest.623f9f7930988b116a034c50df0509cc.js": "/ReactBlogApp/precache-manifest.623f9f7930988b116a034c50df0509cc.js",
+    "service-worker.js": "/ReactBlogApp/service-worker.js",
+    "static/css/main.e2414e90.chunk.css.map": "/ReactBlogApp/static/css/main.e2414e90.chunk.css.map",
+    "static/media/aloo.jpg": "/ReactBlogApp/static/media/aloo.a28ab548.jpg",
+    "static/media/chole.jpg": "/ReactBlogApp/static/media/chole.a5f3bdc2.jpg",
+    "static/media/idli.jpg": "/ReactBlogApp/static/media/idli.1bb710bc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64398928.js",
+    "static/js/2.65156925.chunk.js",
+    "static/css/main.e2414e90.chunk.css",
+    "static/js/main.38dbbee7.chunk.js"
+  ]
+}
