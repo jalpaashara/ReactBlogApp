@@ -7,7 +7,7 @@ import Food from "./Food";
 class App extends React.Component{
   render(){
     return(
-        <Router>
+        <Router basename="/">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/:foodid" component={Food}/>

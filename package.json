@@ -2,8 +2,8 @@
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://jalpaashara.github.io/ReactBlogApp/",
   "dependencies": {
-    "gh-pages": "^2.1.1",
     "madge": "^3.6.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-    },
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -35,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
