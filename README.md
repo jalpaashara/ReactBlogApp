@@ -62,4 +62,7 @@ You will also see any lint errors in the console.
 #### Link to the screencast video of the working app:
 [Link](https://screencast-o-matic.com/embed?sc=cqXZhKU4iT&v=5&ff=1%20allowfullscreen=true)
 
+#### Link to the working app:   
+[Click to see the app](https://jalpaashara.github.io/ReactBlogApp/)   
+
 <hr>
