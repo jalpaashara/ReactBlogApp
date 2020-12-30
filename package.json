@@ -2,7 +2,7 @@
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jalpaashara.github.io/ReactBlogApp/",
+  "homepage": "https://jalpaashara.github.io/ReactBlogApp/",
   "dependencies": {
     "madge": "^3.6.0",
     "react": "^16.12.0",
@@ -10,7 +10,7 @@
     "react-router": "latest",
     "react-router-config": "^5.1.1",
     "react-router-dom": "latest",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
