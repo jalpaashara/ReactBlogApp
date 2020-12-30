@@ -90,7 +90,7 @@ class Navbar extends React.Component{
                 <NavLink to="/" activeClassName="active"> Home </NavLink>
                 <br/><br/>
                 Courtesy: <a href={"https://news.google.com/"} target="_blank" rel="noopener noreferrer"> Google News </a>
-                <ul>
+                <ul className="newsFeed">
                     {news && news.map(item => (
                         <li key={item.title}>
                             {item.title}

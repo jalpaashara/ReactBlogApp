@@ -10,7 +10,7 @@ class App extends React.Component{
         <Router basename="/">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/:foodid" component={Food}/>
+            <Route path="/food/:foodid" component={Food}/>
           </Switch>
         </Router>
     );

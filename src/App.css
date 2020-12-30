@@ -11,10 +11,9 @@
 
 .main_container{
     display: grid;
-    grid-template-rows: 0.4fr 2fr 0.1fr;
+    grid-template-rows: 0.4fr 1.5fr 0.1fr;
     overflow: hidden;
     grid-gap: 2px;
-
 }
 
 .active{
@@ -38,8 +37,19 @@
 }
 
 .desc{
-    font-size: 24px;
+    font-size: 16px;
     text-align: justify;
+    line-height: 26px;
+}
+
+.newsFeed{
+    font-size: 15px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.newsFeed > li {
+    margin-bottom: 5px;
 }
 
 /* Header CSS */
@@ -79,7 +89,7 @@ footer{
 }
 
 img {
-    height: 100%;
+    height: 80%;
     width: 100%;
 }
 
@@ -104,12 +114,15 @@ img {
     }
 
     .desc{
-        font-size: 18px;
+        font-size: 14px;
         text-align: justify;
     }
 
+    .newsFeed{
+        font-size: 14px;
+    }
+
     img{
-        width: 75%;
         height: 75%;
     }
 

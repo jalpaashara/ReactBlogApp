@@ -10,17 +10,18 @@ class Food extends Main {
     render() {
         let finalItems = null;
         const itemsList = this.state.foodlist;
-        console.log('items',itemsList);
+        console.log(this.props);
         let key = this.props.match.params.foodid;
 
         itemsList.map((item) =>{
-            if (key == item.id){
+            console.log(typeof item.id, typeof key);
+            if (parseInt(key) === item.id){
                 finalItems = (
                     <div key={item.id} className="divMain">
                         <h1 key='10'>{item.title}</h1>
                         <p key='11'>Date: {item.date}</p>
                         <p key='12' className="desc">{item.description}</p>
-                        <img src={item.img} alt='' />
+                        <img src={item.img} alt={item.title} />
                         <br/><br/>
                     </div>
                 );
