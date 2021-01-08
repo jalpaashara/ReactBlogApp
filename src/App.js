@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
 import Home from "./Home";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 import Food from "./Food";
 
 class App extends React.Component{
   render(){
     return(
-        <Router basename="/">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/food/:foodid" component={Food}/>
           </Switch>
-        </Router>
+        </BrowserRouter>
     );
   }
 }

@@ -26,6 +26,7 @@ class Food extends Main {
                     </div>
                 );
             }
+            return finalItems;
         });
 
         console.log(finalItems);

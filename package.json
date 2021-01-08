@@ -1,16 +1,18 @@
 {
-  "name": "reactapp",
+  "name": "reactBlogApp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jalpaashara.github.io/ReactBlogApp/",
+  "homepage": "https://jalpaashara.github.io/ReactBlogApp",
+  "proxy": "https://newsapi.org/v2/top-headlines",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "madge": "^3.6.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router": "latest",
     "react-router-config": "^5.1.1",
     "react-router-dom": "latest",
-    "react-scripts": "^3.4.4"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,7 +31,6 @@
       "not dead",
       "not op_mini all"
     ],
-    "homepage": "https://github.com/jalpaashara/MyFirstReactApp",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

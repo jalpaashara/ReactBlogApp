@@ -6,14 +6,13 @@ import foodinfo from './foodlist';
 class Main extends React.Component {
     constructor(props) {
         super(props);
-        console.log(props);
         this.state = {
             foodlist: foodinfo
         }
     }
 
     render() {
-        console.log(this.state.foodlist);
+        // console.log(this.state.foodlist);
         const listItems = this.state.foodlist.map((d) =>
             <div key={d.id} className="divMain">
                 <h2 key='10'><Link to={`/food/${d.id}`}>{d.title}</Link></h2>
