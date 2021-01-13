@@ -16,36 +16,6 @@ class Navbar extends React.Component{
         };
     }
 
-     /*async componentDidMount() {
-         this._isMounted = true;
-         try {
-             setInterval(async () => {
-                     await fetch('https://newsapi.org/v2/top-headlines?sources=google-news&apiKey='+API_KEY)
-                         .then(res => res.json())
-                         .then(
-                             (data) => {
-                                 if (this._isMounted) {this.setState({isLoaded: true, news: data.articles})}
-                                 // console.log("data", this.state);
-                             }
-                         )
-                         .catch((error) => {
-                             this.setState({
-                                 isLoaded: false,
-                                 error
-                             });
-                         })
-                 },
-                 5000
-             );
-         } catch(e) {
-             console.log(e);
-         }
-     }
-
-    async componentWillUnmount() {
-        this._isMounted = false;
-    }*/
-
     async componentDidMount() {
         await this.getNewsHeadlines()
     }
