@@ -20,7 +20,7 @@ class Navbar extends React.Component{
          this._isMounted = true;
          try {
              setInterval(async () => {
-                     await fetch('https://newsapi.org/v2/top-headlines?sources=google-news&apiKey=443f59f54e30441f87dc15b2733eef53')
+                     await fetch('https://newsapi.org/v2/top-headlines?sources=google-news&apiKey='+API_KEY)
                          .then(res => res.json())
                          .then(
                              (data) => {
